@@ -2,7 +2,7 @@ import 'package:mobx/mobx.dart';
 
 part 'counter_store.g.dart';
 
-class CounterStore = _Counter with _$Counter;
+class CounterStore = _Counter with _$CounterStore;
 
 abstract class _Counter with Store {
 
