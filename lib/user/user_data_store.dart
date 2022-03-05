@@ -13,7 +13,7 @@ abstract class _UserData with Store {
   String firstname = "";
 
   @computed
-  String get fullName => '$firstname, $lastname';
+  String get fullName => '$firstname $lastname';
   
   @action
   void updateFirstName(firstName){
